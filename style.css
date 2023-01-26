@@ -82,3 +82,16 @@ body {
     margin-top: 80px;
     text-align: center;
 }
+
+@media only screen and (max-width: 720px) {
+    .container {
+        width: 100vmin;
+        padding: 40px 20px;
+    }
+    .search-box input {
+        width: 80%;
+    }
+    .search-box button {
+        width: 18%;
+    }
+}
